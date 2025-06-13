@@ -1,0 +1,205 @@
+/* Blank .css file */
+
+body{
+    font-family: Segoe UI Variable;
+    background: #FBFFFB;
+}
+
+
+
+.container-navbar {
+background: white;
+display:flex;
+justify-content: center;
+}
+
+.navbar{
+    width: 1350px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+h1 {
+    position: relative;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 96px;
+    color: #678E68;
+}
+
+h1 span {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-top: 20px;
+    margin-left: 123px;
+}
+
+h1:before {
+    position: absolute;
+    content: '';
+    display: block;
+    background: #D2EB89;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 0;
+}
+
+
+h2 {
+    position: relative;
+    font-family: 'Source Serif Pro' , Bold,  serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: #678E68;
+}
+
+
+h3 {
+   position: relative;
+   font-family: 'Source Serif Pro' , Bold , serif;
+   font-weight: 700;
+   font-size: 25px;
+   color: #678E68; 
+}
+
+h6 {
+    text-align: center;
+}
+
+
+.container-a {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-b {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-c {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-d {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.box-a {
+    position: relative;
+}
+
+.box-a .textbox {
+    position: absolute;
+    left: 550px;
+    top: 375px;
+    width: 600px;
+    background: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box-a .textbox-b {
+    position: absolute;
+    left: 920px;
+    top: 290px;
+    width: 300px;
+    height:30px;
+    background: rgba(255,255,255,0.7);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.box-a .textbox-c {
+    position: absolute;
+    left: 920px;
+    top: 335px;
+    width: 200px;
+    background: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.box-a .textbox-d {
+    position: absolute;
+    left: 225px;
+    top: 500px;
+    width: 700px;
+    background: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.p{
+    font-family: 'Segoe UI Variable', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    color:black;
+}
+
+
+.flex{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.card-2{
+    margin-top: 50px;
+}
+
+
+a {
+    display: inline-block;
+    padding:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 45px;
+    border-style: solid;
+    border-color: #678E68;
+    color: #678E68;
+    text-decoration: none;
+    font-family: 'Source Serif Pro' , Bold , serif;
+    font-size: 40px;
+}
+
+
+.bottom {
+    background-color: rgba(237,240,237,100);
+    ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+padding
+margin-border
+border-radius

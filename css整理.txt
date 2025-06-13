@@ -1,0 +1,29 @@
+
+
+h2 {
+    position: relative;
+    font-family: 'Source Serif Pro' , Bold,  serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: #678E68;
+}
+
+
+h3{
+   position: relative;
+   font-family: 'Source Serif Pro' , Bold , serif;
+   font-weight: 700;
+   font-size: 25px;
+   color: #678E68; 
+}
+
+.box-a .textbox-d {
+    position: absolute;
+    left: 700px;
+    top: 350px;
+    width: 170px;
+    height: 196px;
+    background: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
