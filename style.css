@@ -43,7 +43,6 @@ h1 span {
     z-index: 1;
     display: block;
     margin-top: 20px;
-    margin-left: 123px;
 }
 
 h1:before {
@@ -54,7 +53,7 @@ h1:before {
     left: 0;
     top: 0;
     width: 100%;
-    height: 70px;
+    height: 100px;
     z-index: 0;
 }
 
@@ -117,6 +116,10 @@ h6 {
     border-radius: 10px;
 }
 
+.box-a .textbox p {
+    margin: 0;
+}
+
 .box-a .textbox-b {
     position: absolute;
     left: 920px;
@@ -140,13 +143,11 @@ h6 {
 
 
 .box-a .textbox-d {
-    position: absolute;
-    left: 225px;
-    top: 500px;
     width: 700px;
     background: rgba(255,255,255,0.7);
     padding: 20px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 
@@ -190,6 +191,12 @@ a {
 
 }
 
+.flex-b {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 
 
@@ -198,8 +205,8 @@ a {
 
 
 
-
-
+/* 
 padding
 margin-border
-border-radius
+border-radius 
+*/
